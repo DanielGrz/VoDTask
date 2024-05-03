@@ -1,0 +1,21 @@
+{
+    "name": "task1",
+    "version": "0.0.1",
+    "author": "Daniel Grz.",
+    "license": "ISC",
+    "description": "Package json for task1",
+    "type": "module",
+    "devDependencies": {
+        "@jest/globals": "^29.7.0",
+        "@tsconfig/node21": "^21.0.3",
+        "@types/jest": "^29.5.12",
+        "jest": "^29.7.0",
+        "ts-jest": "^29.1.2",
+        "tsx": "^4.9.0",
+        "typescript": "^5.4.5"
+    },
+    "scripts":{
+        "test": "jest --watch",
+        "app": "npx tsx src/main.ts"
+    }
+}
